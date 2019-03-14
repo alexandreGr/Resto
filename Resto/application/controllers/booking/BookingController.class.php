@@ -1,6 +1,6 @@
 <?php
 
-class SigninController
+class BookingController
 {
     public function httpGetMethod(Http $http, array $queryFields)
     {
@@ -10,19 +10,16 @@ class SigninController
     	 * L'argument $http est un objet permettant de faire des redirections etc.
     	 * L'argument $queryFields contient l'équivalent de $_GET en PHP natif.
     	 */
-        $signin = new SigninModel();
-     
-        
-
     }
 
     public function httpPostMethod(Http $http, array $formFields)
     {
-    	/*
-    	 * Méthode appelée en cas de requête HTTP POST
-    	 *
-    	 * L'argument $http est un objet permettant de faire des redirections etc.
-    	 * L'argument $formFields contient l'équivalent de $_POST en PHP natif.
-    	 */
+        if(empty($_POST) == false) {
+
+    	$booking = new BookingModel();
+        $booking->addBooking($formFields);
+
+        var_dump($formFields);
+        }
     }
 }

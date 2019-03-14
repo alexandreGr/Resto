@@ -8,17 +8,15 @@
 }
 .generic-table caption
 {
-    /* structure */
     margin: 0.25em 0;
-
-    /* presentation */
-    color: #339966;
+    color: #EF4036;
     font-family: 'Oleo Script Swash Caps', cursive;
-    font-size: 2em;
+    text-decoration: underline !important;
+    font-size: 3em;
 }
 .generic-table .colorful
 {
-    color: #339966;
+    color: #2C75FF;
 }
 .generic-table .number
 {
@@ -55,6 +53,6 @@
 }
 .generic-table tr:not(.small-notice):hover td
 {
-    background-color: #339966;
+    background-color: #2C75FF;
     color: white;
 }

@@ -31,6 +31,15 @@
 {
     margin-left: 180px; /* pour aligner avec le label */
 }
+.generic-form input
+{
+    border-radius: 5px;
+}
+.generic-form select
+{
+    background: #2C75FF;
+    color: white;
+}
 .generic-form input[type="password"],
 .generic-form input[type="text"],
 .generic-form select,
@@ -40,8 +49,11 @@
     padding: 2px;
 
     /* presentation */
-    border: 1px solid grey;
+    border: 1px solid lightgray;
     transition: background-color 0.33s;
+    border-radius: 5px;
+    border-style: inset;
+    border-width: 2px;
 }
 .generic-form input[type="password"],
 .generic-form input[type="text"],
@@ -54,7 +66,7 @@
 .generic-form select:focus,
 .generic-form textarea:focus
 {
-    background-color: #D0FFFF;
+    background-color: #3dccfa;
 }
 .generic-form > ul:last-child
 {
@@ -96,4 +108,10 @@
 .generic-form textarea
 {
     resize: none;
+}
+#basket-product
+{
+    border: 1px solid #2C75FF;
+    background-color: #3dccfa;
+    color: white;
 }
