@@ -8,6 +8,7 @@
 }
 .generic-table caption
 {
+<<<<<<< HEAD
     margin: 0.25em 0;
     color: #EF4036;
     font-family: 'Oleo Script Swash Caps', cursive;
@@ -17,6 +18,19 @@
 .generic-table .colorful
 {
     color: #2C75FF;
+=======
+    /* structure */
+    margin: 0.25em 0;
+
+    /* presentation */
+    color: #339966;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 2em;
+}
+.generic-table .colorful
+{
+    color: #339966;
+>>>>>>> 4174de5fb843a021f5c090edf1e28661376a9ac9
 }
 .generic-table .number
 {
@@ -53,6 +67,10 @@
 }
 .generic-table tr:not(.small-notice):hover td
 {
+<<<<<<< HEAD
     background-color: #2C75FF;
+=======
+    background-color: #339966;
+>>>>>>> 4174de5fb843a021f5c090edf1e28661376a9ac9
     color: white;
 }

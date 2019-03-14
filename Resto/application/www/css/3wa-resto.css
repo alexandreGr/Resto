@@ -8,11 +8,16 @@
 
 a
 {
+<<<<<<< HEAD
     color: #2C75FF;
+=======
+    color : #1E593B;
+>>>>>>> 4174de5fb843a021f5c090edf1e28661376a9ac9
     font-weight: bold;
     text-decoration: none;
     transition: color 0.25s;
 }
+<<<<<<< HEAD
 
 a:hover
 {
@@ -22,6 +27,11 @@ a:hover
 td a
 {
     color: black;
+=======
+a:hover
+{
+    color: #339966;
+>>>>>>> 4174de5fb843a021f5c090edf1e28661376a9ac9
 }
 
 body
@@ -42,7 +52,11 @@ fieldset
     padding-right: 1em;
 
     /* presentation */
+<<<<<<< HEAD
     border-color: #2C75FF;
+=======
+    border-color: #1E593B;
+>>>>>>> 4174de5fb843a021f5c090edf1e28661376a9ac9
     border-radius: 6px;
 }
 fieldset legend
@@ -51,6 +65,7 @@ fieldset legend
     padding: 0 0.5em;
 
     /* presentation */
+<<<<<<< HEAD
     color: #2C75FF;
     font-weight: bold;
 }
@@ -68,6 +83,12 @@ fieldset legend
     top: 0.3rem;
     left: -1rem;
 }
+=======
+    color: #1E593B;
+    font-weight: bold;
+}
+
+>>>>>>> 4174de5fb843a021f5c090edf1e28661376a9ac9
 footer
 {
     /* structure */
@@ -87,9 +108,12 @@ h1
     font-family: 'Oleo Script Swash Caps', cursive;
     letter-spacing: 0.15em;
     text-align: center;
+<<<<<<< HEAD
     font-size: 3rem;
     font-weight: lighter;
     padding-bottom: 2rem;
+=======
+>>>>>>> 4174de5fb843a021f5c090edf1e28661376a9ac9
 }
 h1 a,
 h1 a:hover
@@ -108,8 +132,12 @@ h2
     margin: 1.5em 0;
 
     /* presentation */
+<<<<<<< HEAD
     color: #EF4036;
 
+=======
+    color: #1E593B;
+>>>>>>> 4174de5fb843a021f5c090edf1e28661376a9ac9
 }
 
 html
@@ -155,11 +183,17 @@ html
     /* presentation */
     list-style-type: none;
 }
+<<<<<<< HEAD
 
 .link-list li
 {
     display: inline-block;
     margin-right: 2rem;
+=======
+.link-list li
+{
+    display: inline-block;
+>>>>>>> 4174de5fb843a021f5c090edf1e28661376a9ac9
 }
 
 .small
@@ -168,7 +202,10 @@ html
     vertical-align: bottom;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4174de5fb843a021f5c090edf1e28661376a9ac9
 /*
  * CSS de l'interface utilisateur
  */
@@ -187,7 +224,14 @@ html
 {
     color: #EF4036;
 }
+<<<<<<< HEAD
 
+=======
+.user-interface .link-list{
+    display: flex;
+    justify-content: space-between;
+}
+>>>>>>> 4174de5fb843a021f5c090edf1e28661376a9ac9
 
 /*
  * CSS des tableaux listant des aliments
@@ -210,12 +254,21 @@ html
 .meal-list tr:hover img
 {
     opacity: 1;
+<<<<<<< HEAD
     zoom: 1.3;
 }
 .meal-list tr:hover a
 {
     color: white;
 }
+=======
+}
+.meal-list tr:hover img
+{
+    opacity: 1;
+}
+
+>>>>>>> 4174de5fb843a021f5c090edf1e28661376a9ac9
 /*
  * CSS de la page d'accueil
  */

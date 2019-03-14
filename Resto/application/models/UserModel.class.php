@@ -50,8 +50,12 @@ class UserModel {
 			$_SESSION['LastName'] = $user['LastName'];
 		}
 
+<<<<<<< HEAD
 
 		header('Location: ../');
+=======
+		header('Location: index.php');
+>>>>>>> 4174de5fb843a021f5c090edf1e28661376a9ac9
 		exit();
 	}
 
@@ -86,7 +90,11 @@ class UserModel {
 
 
 			// ça c'est mal !!!!!!!!!!!
+<<<<<<< HEAD
 			header('Location: changePassword.php?id='.$user['Password'].'&mail='.$user['Email']);
+=======
+			header('Location: changePassword.php?id='.$user['password'].'&mail='.$user['Email']);
+>>>>>>> 4174de5fb843a021f5c090edf1e28661376a9ac9
 			exit();
 
 			return 'yes';
